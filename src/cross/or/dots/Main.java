@@ -129,7 +129,7 @@ public class Main {
             if (count == 2) {
                 check = true;
                 break;
-            }
+            } //
             for (int j = 0; j < size - 1; j++) {
                 if ((field [j] [i] == point) && (field [j + 1] [i] == point)) {
                     count = count + 1;
